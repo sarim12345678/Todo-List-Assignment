@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+    <header>
+        <img class="nav-img" src="assests/todo app.jpeg" alt="Todo App img">
+        <nav>
+            <ul id="menuList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <button class="nav-btn">Contact Me</button>
+            </ul>
+        </nav>
+        <div class="hamburger-icon"><i class="fa-solid fa-bars" onclick="toggleMenu()"></i></div>
+    </header>
+    </div>
+    <section id="Todo app">
+        <div class="todo-app-container">
+            <h1>Todo app</h1>
+            <input class="task-bar" type="text" id="taskInput" placeholder="Enter your tasks">
+            <button id="addTask" onclick="addTask()">Add</button>
+            <ul id="taskList"></ul>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
