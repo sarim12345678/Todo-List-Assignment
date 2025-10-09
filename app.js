@@ -31,6 +31,7 @@ function addTask() {
     const span = document.createElement("span");
     span.textContent = taskText;
     span.classList.add("task");
+    li.setAttribute("class" , "li")
 
     const btns = document.createElement("div");
     btns.classList.add("btns");

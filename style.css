@@ -75,8 +75,9 @@ input,button {
     border-radius: 0.2rem;
 }
 
-li {
+.li {
     padding: 10px;
+    margin-top: 0.6rem;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -123,7 +124,7 @@ li.completed {
         background-color: black;
         overflow: hidden;
     }
-
+    
     .nav-btn {
         display: none;
     }
