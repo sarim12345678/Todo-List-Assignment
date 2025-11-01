@@ -48,7 +48,7 @@ nav>ul>li>a {
 
 
 .todo-app-container {
-    height: 50vh;
+    /* height: 50vh; */
     width: 25rem;
     margin: auto;
     margin-top: 10rem;
