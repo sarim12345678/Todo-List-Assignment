@@ -12,9 +12,7 @@ function toggleMenu() {
 const taskList = document.getElementById("taskList");
 const input = document.getElementById("taskInput");
 
-const addBtn = document.createElement("button");
-addBtn.textContent = "Add Task";
-btnContainer.appendChild(addBtn);
+
 
 addBtn.addEventListener("click", addTask);
 
