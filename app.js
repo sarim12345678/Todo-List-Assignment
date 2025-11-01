@@ -14,7 +14,7 @@ const input = document.getElementById("taskInput");
 
 
 
-addBtn.addEventListener("click", addTask);
+
 
 function addTask() {
     let taskText = input.value.trim();
