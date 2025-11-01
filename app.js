@@ -10,7 +10,6 @@ function toggleMenu() {
 }
 
 const taskList = document.getElementById("taskList");
-const btnContainer = document.getElementById("btnContainer");
 const input = document.getElementById("taskInput");
 
 const addBtn = document.createElement("button");
